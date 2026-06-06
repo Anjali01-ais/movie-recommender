@@ -188,7 +188,7 @@ export default function App() {
   }
 
   const s = {
-    app: { minHeight: '100vh', background: colors.bg, display: 'flex', flexDirection: 'column', alignItems: 'center', fontFamily: "'DM Sans', sans-serif", color: colors.text, transition: 'background 0.3s, color 0.3s' },
+    app: { minHeight: '100vh', width: '100%', background: colors.bg, display: 'flex', flexDirection: 'column', alignItems: 'center', fontFamily: "'DM Sans', sans-serif", color: colors.text, transition: 'background 0.3s, color 0.3s' },
     header: { width: '100%', maxWidth: '760px', padding: '1.2rem 1.5rem 0.8rem', borderBottom: `1px solid ${colors.border}`, display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '8px' },
     logo: { fontFamily: "'DM Serif Display', serif", fontSize: '1.5rem', color: colors.accent, margin: 0 },
     headerRight: { display: 'flex', alignItems: 'center', gap: '8px', flexWrap: 'wrap' },
